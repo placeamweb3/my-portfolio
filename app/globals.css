@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  /* Custom Colors */
+  --color-background: #0a0a0a;
+  --color-card: #111111;
+  --color-border: #1f1f1f;
+  --color-primary: #6366f1; /* Indigo */
+
+  /* Text Colors */
+  --color-text-heading: #f9fafb;
+  --color-text-body: #9ca3af;
+
+  /* Custom Fonts mapped to Next.js variables */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono:
+    var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, monospace;
+
+  /* Custom Marquee Animation */
+  --animate-marquee: marquee 40s linear infinite;
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+/* Optional: Add smooth scrolling and global resets */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text-body);
+}
+
+::selection {
+  background-color: color-mix(in srgb, var(--color-primary) 30%, transparent);
+  color: var(--color-text-heading);
+}
