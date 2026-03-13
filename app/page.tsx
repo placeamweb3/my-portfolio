@@ -13,7 +13,7 @@ import {
   Download,
   ChevronUp,
 } from "lucide-react";
-// import Image from "next/image";
+import Image from "next/image";
 import project1 from "@/public/assets/lms.png";
 import project2 from "@/public/assets/habit tracker.png";
 import project3 from "@/public/assets/3DProductShowcase.png";
@@ -317,10 +317,11 @@ export default function Portfolio() {
                 <div className="absolute inset-0 bg-primary/20 blur-3xl rounded-full scale-110"></div>
                 <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-2 border-primary/30 relative z-10 bg-card">
                   {/* Optional: Add actual image path below */}
-                <div className="w-full h-full bg-linear-to-tr from-card to-border flex items-center justify-center text-4xl font-bold text-border">
+                {/* <div className="w-full h-full bg-linear-to-tr from-card to-border flex items-center justify-center text-4xl font-bold text-border">
                     FO
-                  </div>
+                  </div> */}
                  {/* <img src="/assets/avatar.png" alt="Favour Olusesan" className="w-full h-full object-cover" /> */}
+                 <Image src="/assets/profile.png" alt="Favour Olusesan" width={256} height={256} className="w-full h-full object-cover" />
                 </div>
               </div>
             </div>
