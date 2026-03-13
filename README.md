@@ -2,7 +2,7 @@
 
 A modern, minimalist portfolio website for a Frontend Engineer specialising in React, Next.js, and AI integration. Designed with a sleek dark theme, smooth GPU-accelerated animations, and a focus on performance.
 
-![Portfolio Preview](https://via.placeholder.com/1200x600/0A0A0A/6366F1?text=Bello+Muhammed+-+Portfolio+Preview) <!-- Update this link with a real screenshot of your site later -->
+<!-- ![Portfolio Preview](https://via.placeholder.com/1200x600/0A0A0A/6366F1?text=Bello+Muhammed+-+Portfolio+Preview)  Update this link with a real screenshot of your site later -->
 
 🌐 **Live Demo:** [FavourOlusesan.com](https://favour-olusesan.vercel.app) *(Update with your actual link)*
 
